@@ -1,0 +1,41 @@
+## Ignore build results, user files and published output
+
+# Build output
+bin/
+obj/
+
+# Publish folders
+publish/
+out/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# VS Code and Rider settings
+.vscode/
+.idea/
+
+# ASP.NET scaffolding
+ScaffoldingReadMe.txt
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# NuGet packages folder
+packages/
+*.nupkg
+
+# Logs and diagnostics
+*.log
+
+# Entity Framework migrations snapshots (optional, only if auto-generated unwanted)
+*Migrations/*.Designer.cs
+*Migrations/*Snapshot.cs
+
+# Others
+_ReSharper*/
+*.DotSettings.user
