@@ -1,8 +1,50 @@
-﻿@{
+﻿@model IEnumerable<cental_server.Models.ClientStatus>
+
+@{
     ViewData["Title"] = "Home Page";
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <a class="btn btn-primary" href="#" role="button">Запустити обрахунки</a>
 </div>
+
+
+<h2>Вузли системи</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Вузол
+            </th>
+            <th>
+                CPU
+            </th>
+            <th>
+                Пам'ять
+            </th>
+            <th>
+                Дії
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Sender)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CpuUsage)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.MemoryUsage)%
+                </td>
+           
+                <td>
+                    <a class="btn btn-primary" asp-action="DisconnectClient" asp-route-id="@item.Sender" role="button">Від'єднати вузол</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

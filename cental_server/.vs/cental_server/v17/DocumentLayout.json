@@ -7,40 +7,52 @@
       "RelativeMoniker": "D:0:0:{CBDFC5BA-C079-4890-8395-6E53E5B482C8}|cental_server.csproj|solutionrelative:services\\connectionhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CBDFC5BA-C079-4890-8395-6E53E5B482C8}|cental_server.csproj|d:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\cental_server\\storages\\messagestore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CBDFC5BA-C079-4890-8395-6E53E5B482C8}|cental_server.csproj|solutionrelative:storages\\messagestore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CBDFC5BA-C079-4890-8395-6E53E5B482C8}|cental_server.csproj|d:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\cental_server\\services\\clientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBDFC5BA-C079-4890-8395-6E53E5B482C8}|cental_server.csproj|solutionrelative:services\\clientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CBDFC5BA-C079-4890-8395-6E53E5B482C8}|cental_server.csproj|d:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\cental_server\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CBDFC5BA-C079-4890-8395-6E53E5B482C8}|cental_server.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CBDFC5BA-C079-4890-8395-6E53E5B482C8}|cental_server.csproj|d:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\cental_server\\services\\taskmenagmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CBDFC5BA-C079-4890-8395-6E53E5B482C8}|cental_server.csproj|solutionrelative:services\\taskmenagmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CBDFC5BA-C079-4890-8395-6E53E5B482C8}|cental_server.csproj|d:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\cental_server\\services\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CBDFC5BA-C079-4890-8395-6E53E5B482C8}|cental_server.csproj|solutionrelative:services\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CBDFC5BA-C079-4890-8395-6E53E5B482C8}|cental_server.csproj|d:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\cental_server\\services\\clientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CBDFC5BA-C079-4890-8395-6E53E5B482C8}|cental_server.csproj|solutionrelative:services\\clientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CBDFC5BA-C079-4890-8395-6E53E5B482C8}|cental_server.csproj|d:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\cental_server\\storages\\clientstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CBDFC5BA-C079-4890-8395-6E53E5B482C8}|cental_server.csproj|solutionrelative:storages\\clientstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CBDFC5BA-C079-4890-8395-6E53E5B482C8}|cental_server.csproj|d:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\cental_server\\models\\taskdtostatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CBDFC5BA-C079-4890-8395-6E53E5B482C8}|cental_server.csproj|solutionrelative:models\\taskdtostatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CBDFC5BA-C079-4890-8395-6E53E5B482C8}|cental_server.csproj|d:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\cental_server\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CBDFC5BA-C079-4890-8395-6E53E5B482C8}|cental_server.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBDFC5BA-C079-4890-8395-6E53E5B482C8}|cental_server.csproj|d:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\cental_server\\models\\clientstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBDFC5BA-C079-4890-8395-6E53E5B482C8}|cental_server.csproj|solutionrelative:models\\clientstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBDFC5BA-C079-4890-8395-6E53E5B482C8}|cental_server.csproj|d:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\cental_server\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBDFC5BA-C079-4890-8395-6E53E5B482C8}|cental_server.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CBDFC5BA-C079-4890-8395-6E53E5B482C8}|cental_server.csproj|d:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\cental_server\\models\\messagewrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CBDFC5BA-C079-4890-8395-6E53E5B482C8}|cental_server.csproj|solutionrelative:models\\messagewrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CBDFC5BA-C079-4890-8395-6E53E5B482C8}|cental_server.csproj|d:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\cental_server\\models\\clientstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CBDFC5BA-C079-4890-8395-6E53E5B482C8}|cental_server.csproj|solutionrelative:models\\clientstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CBDFC5BA-C079-4890-8395-6E53E5B482C8}|cental_server.csproj|d:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\cental_server\\storages\\messagestore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBDFC5BA-C079-4890-8395-6E53E5B482C8}|cental_server.csproj|solutionrelative:storages\\messagestore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBDFC5BA-C079-4890-8395-6E53E5B482C8}|cental_server.csproj|d:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\cental_server\\services\\taskmenagmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBDFC5BA-C079-4890-8395-6E53E5B482C8}|cental_server.csproj|solutionrelative:services\\taskmenagmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBDFC5BA-C079-4890-8395-6E53E5B482C8}|cental_server.csproj|d:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\cental_server\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CBDFC5BA-C079-4890-8395-6E53E5B482C8}|cental_server.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBDFC5BA-C079-4890-8395-6E53E5B482C8}|cental_server.csproj|d:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\cental_server\\models\\taskdtostatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBDFC5BA-C079-4890-8395-6E53E5B482C8}|cental_server.csproj|solutionrelative:models\\taskdtostatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CBDFC5BA-C079-4890-8395-6E53E5B482C8}|cental_server.csproj|d:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\cental_server\\models\\taskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -49,10 +61,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{CBDFC5BA-C079-4890-8395-6E53E5B482C8}|cental_server.csproj|d:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\cental_server\\cental_server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{CBDFC5BA-C079-4890-8395-6E53E5B482C8}|cental_server.csproj|solutionrelative:cental_server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CBDFC5BA-C079-4890-8395-6E53E5B482C8}|cental_server.csproj|d:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\cental_server\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CBDFC5BA-C079-4890-8395-6E53E5B482C8}|cental_server.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CBDFC5BA-C079-4890-8395-6E53E5B482C8}|cental_server.csproj|d:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\cental_server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -66,7 +74,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -74,162 +82,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ClientService.cs",
-              "DocumentMoniker": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\cental_server\\Services\\ClientService.cs",
-              "RelativeDocumentMoniker": "Services\\ClientService.cs",
-              "ToolTip": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\cental_server\\Services\\ClientService.cs",
-              "RelativeToolTip": "Services\\ClientService.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T22:13:43.504Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MessageStore.cs",
-              "DocumentMoniker": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\cental_server\\Storages\\MessageStore.cs",
-              "RelativeDocumentMoniker": "Storages\\MessageStore.cs",
-              "ToolTip": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\cental_server\\Storages\\MessageStore.cs",
-              "RelativeToolTip": "Storages\\MessageStore.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAQAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T22:14:39.665Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ConnectionHub.cs",
-              "DocumentMoniker": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\cental_server\\Services\\ConnectionHub.cs",
-              "RelativeDocumentMoniker": "Services\\ConnectionHub.cs",
-              "ToolTip": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\cental_server\\Services\\ConnectionHub.cs",
-              "RelativeToolTip": "Services\\ConnectionHub.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAAAkwC8AAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T20:28:28.645Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "TaskService.cs",
-              "DocumentMoniker": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\cental_server\\Services\\TaskService.cs",
-              "RelativeDocumentMoniker": "Services\\TaskService.cs",
-              "ToolTip": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\cental_server\\Services\\TaskService.cs",
-              "RelativeToolTip": "Services\\TaskService.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAswAoAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T22:14:12.394Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TaskMenagmentService.cs",
-              "DocumentMoniker": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\cental_server\\Services\\TaskMenagmentService.cs",
-              "RelativeDocumentMoniker": "Services\\TaskMenagmentService.cs",
-              "ToolTip": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\cental_server\\Services\\TaskMenagmentService.cs",
-              "RelativeToolTip": "Services\\TaskMenagmentService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T22:12:59.068Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\cental_server\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\cental_server\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAAAgwDIAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T19:46:07.525Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ClientStorage.cs",
-              "DocumentMoniker": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\cental_server\\Storages\\ClientStorage.cs",
-              "RelativeDocumentMoniker": "Storages\\ClientStorage.cs",
-              "ToolTip": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\cental_server\\Storages\\ClientStorage.cs",
-              "RelativeToolTip": "Storages\\ClientStorage.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T23:28:23.616Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "TaskDTOStatus.cs",
-              "DocumentMoniker": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\cental_server\\Models\\TaskDTOStatus.cs",
-              "RelativeDocumentMoniker": "Models\\TaskDTOStatus.cs",
-              "ToolTip": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\cental_server\\Models\\TaskDTOStatus.cs",
-              "RelativeToolTip": "Models\\TaskDTOStatus.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T22:18:11.509Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "MessageWrapper.cs",
-              "DocumentMoniker": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\cental_server\\Models\\MessageWrapper.cs",
-              "RelativeDocumentMoniker": "Models\\MessageWrapper.cs",
-              "ToolTip": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\cental_server\\Models\\MessageWrapper.cs",
-              "RelativeToolTip": "Models\\MessageWrapper.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T22:31:55.49Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ClientStatus.cs",
-              "DocumentMoniker": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\cental_server\\Models\\ClientStatus.cs",
-              "RelativeDocumentMoniker": "Models\\ClientStatus.cs",
-              "ToolTip": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\cental_server\\Models\\ClientStatus.cs",
-              "RelativeToolTip": "Models\\ClientStatus.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T23:13:24.019Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "TaskDTO.cs",
-              "DocumentMoniker": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\cental_server\\Models\\TaskDTO.cs",
-              "RelativeDocumentMoniker": "Models\\TaskDTO.cs",
-              "ToolTip": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\cental_server\\Models\\TaskDTO.cs",
-              "RelativeToolTip": "Models\\TaskDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T22:15:49.223Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "cental_server.csproj",
-              "DocumentMoniker": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\cental_server\\cental_server.csproj",
-              "RelativeDocumentMoniker": "cental_server.csproj",
-              "ToolTip": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\cental_server\\cental_server.csproj",
-              "RelativeToolTip": "cental_server.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-26T18:00:27.489Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\cental_server\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
@@ -241,7 +94,178 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\cental_server\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\cental_server\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAIwF8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T19:46:07.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ClientStorage.cs",
+              "DocumentMoniker": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\cental_server\\Storages\\ClientStorage.cs",
+              "RelativeDocumentMoniker": "Storages\\ClientStorage.cs",
+              "ToolTip": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\cental_server\\Storages\\ClientStorage.cs",
+              "RelativeToolTip": "Storages\\ClientStorage.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T23:28:23.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TaskService.cs",
+              "DocumentMoniker": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\cental_server\\Services\\TaskService.cs",
+              "RelativeDocumentMoniker": "Services\\TaskService.cs",
+              "ToolTip": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\cental_server\\Services\\TaskService.cs",
+              "RelativeToolTip": "Services\\TaskService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T22:14:12.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ClientService.cs",
+              "DocumentMoniker": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\cental_server\\Services\\ClientService.cs",
+              "RelativeDocumentMoniker": "Services\\ClientService.cs",
+              "ToolTip": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\cental_server\\Services\\ClientService.cs",
+              "RelativeToolTip": "Services\\ClientService.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAQwAcAAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T22:13:43.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ConnectionHub.cs",
+              "DocumentMoniker": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\cental_server\\Services\\ConnectionHub.cs",
+              "RelativeDocumentMoniker": "Services\\ConnectionHub.cs",
+              "ToolTip": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\cental_server\\Services\\ConnectionHub.cs",
+              "RelativeToolTip": "Services\\ConnectionHub.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAgwCEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T20:28:28.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\cental_server\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\cental_server\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAmwCwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-05T20:03:37.44Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MessageWrapper.cs",
+              "DocumentMoniker": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\cental_server\\Models\\MessageWrapper.cs",
+              "RelativeDocumentMoniker": "Models\\MessageWrapper.cs",
+              "ToolTip": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\cental_server\\Models\\MessageWrapper.cs",
+              "RelativeToolTip": "Models\\MessageWrapper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T22:31:55.49Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ClientStatus.cs",
+              "DocumentMoniker": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\cental_server\\Models\\ClientStatus.cs",
+              "RelativeDocumentMoniker": "Models\\ClientStatus.cs",
+              "ToolTip": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\cental_server\\Models\\ClientStatus.cs",
+              "RelativeToolTip": "Models\\ClientStatus.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T23:13:24.019Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MessageStore.cs",
+              "DocumentMoniker": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\cental_server\\Storages\\MessageStore.cs",
+              "RelativeDocumentMoniker": "Storages\\MessageStore.cs",
+              "ToolTip": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\cental_server\\Storages\\MessageStore.cs",
+              "RelativeToolTip": "Storages\\MessageStore.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T22:14:39.665Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TaskMenagmentService.cs",
+              "DocumentMoniker": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\cental_server\\Services\\TaskMenagmentService.cs",
+              "RelativeDocumentMoniker": "Services\\TaskMenagmentService.cs",
+              "ToolTip": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\cental_server\\Services\\TaskMenagmentService.cs",
+              "RelativeToolTip": "Services\\TaskMenagmentService.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T22:12:59.068Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\cental_server\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\cental_server\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-05T20:04:06.531Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TaskDTOStatus.cs",
+              "DocumentMoniker": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\cental_server\\Models\\TaskDTOStatus.cs",
+              "RelativeDocumentMoniker": "Models\\TaskDTOStatus.cs",
+              "ToolTip": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\cental_server\\Models\\TaskDTOStatus.cs",
+              "RelativeToolTip": "Models\\TaskDTOStatus.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T22:18:11.509Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 13,
+              "Title": "TaskDTO.cs",
+              "DocumentMoniker": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\cental_server\\Models\\TaskDTO.cs",
+              "RelativeDocumentMoniker": "Models\\TaskDTO.cs",
+              "ToolTip": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\cental_server\\Models\\TaskDTO.cs",
+              "RelativeToolTip": "Models\\TaskDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T22:15:49.223Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "cental_server.csproj",
+              "DocumentMoniker": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\cental_server\\cental_server.csproj",
+              "RelativeDocumentMoniker": "cental_server.csproj",
+              "ToolTip": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\cental_server\\cental_server.csproj",
+              "RelativeToolTip": "cental_server.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-26T18:00:27.489Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\cental_server\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -249,8 +273,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAAA8AAAAAAAAAAAAAABwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T19:46:10.571Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-24T19:46:10.571Z"
             }
           ]
         },

@@ -18,6 +18,7 @@ using System.Diagnostics;
 using static System.Diagnostics.Process;
 using System.Threading;
 using client_wpf_app.Models;
+using System.Windows.Media.Animation;
 
 
 namespace client_wpf_app
@@ -49,7 +50,8 @@ namespace client_wpf_app
 				.WithAutomaticReconnect()
 			.Build();
 
-			connection.On<MessageWrapper<String>>("ReceiveMessage", msg =>
+
+            connection.On<MessageWrapper<String>>("ReceiveMessage", msg =>
 			{
 				Dispatcher.Invoke(() =>
 				{
@@ -57,11 +59,44 @@ namespace client_wpf_app
 				});
 			});
 
+            connection.On("ForceDisconnect", async () =>
+            {
+                await connection.StopAsync();
+                Dispatcher.Invoke(() =>
+                {
+                    MessagesList.Items.Add("Відключено сервером");
+                });
+                SetConnectionState(HubConnectionState.Disconnected);
+            });
 
-			try
-			{
+            //todo check if it is needed
+            /*
+            connection.Reconnecting += error =>
+            {
+                SetConnectionState(HubConnectionState.Reconnecting);
+                return Task.CompletedTask;
+            };
+
+            connection.Reconnected += connectionId =>
+            {
+                SetConnectionState(HubConnectionState.Connected);
+                StartStatusMonitoring();
+                return Task.CompletedTask;
+            };
+
+            connection.Closed += error =>
+            {
+                SetConnectionState(HubConnectionState.Disconnected);
+                return Task.CompletedTask;
+            };
+            */
+
+
+            try
+            {
 				await connection.StartAsync();
-				MessagesList.Items.Add("Підключено до сервера");
+                SetConnectionState(connection.State);
+                MessagesList.Items.Add("Підключено до сервера");
 			}
 			catch (Exception ex)
 			{
@@ -119,14 +154,110 @@ namespace client_wpf_app
 
         private void StartStatusMonitoring()
         {
+            if (_statusTimer != null) return; // avoid double-start
+
             _statusTimer = new Timer(async _ =>
             {
-                var status = GetSystemStatus();
-                //todo here will be an error when server is down
-                await connection.InvokeAsync("ReportStatus", status); 
+                try
+                {
+                    if (connection.State == HubConnectionState.Connected)
+                    {
+                        var status = GetSystemStatus();
+                        await connection.InvokeAsync("ReportStatus", status);
+                    }
+                }
+                catch (Exception ex)
+                {
+                    Dispatcher.Invoke(() => MessagesList.Items.Add($"Report error: {ex.Message}"));
+                }
 
             }, null, TimeSpan.Zero, TimeSpan.FromSeconds(5));
+
+            Dispatcher.Invoke(() => MessagesList.Items.Add("Status monitoring started"));
         }
+
+        private void StopStatusMonitoring()
+        {
+            _statusTimer?.Dispose();
+            _statusTimer = null;
+            Dispatcher.Invoke(() => MessagesList.Items.Add("Status monitoring paused"));
+        }
+
+
+        private async void ReconnectButton_Click(object sender, RoutedEventArgs e)
+        {
+            if (connection.State == HubConnectionState.Connected)
+            {
+                SetConnectionState(HubConnectionState.Connected);
+                MessagesList.Items.Add("Already connected");
+                return;
+            }
+
+            try
+            {
+                await connection.StartAsync();
+                SetConnectionState(HubConnectionState.Connected);
+                MessagesList.Items.Add(" Reconnection successful");
+                StartStatusMonitoring(); // restart if needed
+            }
+            catch (Exception ex)
+            {
+                SetConnectionState(HubConnectionState.Disconnected);
+                MessagesList.Items.Add($"Reconnect failed: {ex.Message}");
+            }
+        }
+
+        private void UpdateConnectionStatus(string status, Brush color)
+        {
+            Dispatcher.Invoke(() =>
+            {
+                StatusIndicator.Fill = color;
+                StatusLabel.Text = status;
+            });
+        }
+
+        private Storyboard _blinkStoryboard;
+
+        private void SetConnectionState(HubConnectionState state)
+        {
+            _blinkStoryboard = (Storyboard)FindResource("BlinkAnimation");
+
+            switch (state)
+            {
+                case HubConnectionState.Connected:
+                    StopBlink();
+                    UpdateConnectionStatus("Connected", Brushes.Green);
+                    break;
+                case HubConnectionState.Reconnecting:
+                case HubConnectionState.Connecting:
+                    StartBlink();
+                    UpdateConnectionStatus("Reconnecting...", new SolidColorBrush(Colors.Goldenrod));
+                    break;
+                case HubConnectionState.Disconnected:
+                default:
+                    StopBlink();
+                    UpdateConnectionStatus("Disconnected", Brushes.Red);
+                    break;
+            }
+        }
+
+        private void StartBlink()
+        {
+            Dispatcher.Invoke(() =>
+            {
+                _blinkStoryboard?.Begin(StatusIndicator, true); // apply to StatusIndicator only
+            });
+        }
+
+        private void StopBlink()
+        {
+            Dispatcher.Invoke(() =>
+            {
+                _blinkStoryboard?.Stop(StatusIndicator);
+  
+            });
+        }
+
 
 
 

@@ -29,6 +29,7 @@ namespace cental_server.Services
             if (!string.IsNullOrEmpty(username))
             {
                 ClientStorage._userConnections.TryRemove(username, out _);
+                ClientStorage._clientStatus.TryRemove(username, out _);
             }
 
             return base.OnDisconnectedAsync(exception);
@@ -53,7 +54,10 @@ namespace cental_server.Services
 
         public Task ReportStatus(MessageWrapper<ClientStatus> message)
         {
-            ClientStorage._clientStatus[message.Sender] = message.Response;
+            //todo rebild this logic to smth cleaner
+            ClientStatus clientStatus = message.Response;
+            clientStatus.Sender = message.Sender;
+            ClientStorage._clientStatus[message.Sender] = clientStatus;
             Console.WriteLine($"{message.Sender} | CPU: {message.Response.CpuUsage}% | RAM: {message.Response.MemoryUsage}MB");
             return Task.CompletedTask;
         }

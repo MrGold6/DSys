@@ -21,11 +21,11 @@ namespace cental_server.Controllers
 
 		public IActionResult Index()
 		{
-			return View();
+			return View(ClientService.GetAllStatuses().Values);
 		}
 
-		public IActionResult Privacy()
-		{
+        public IActionResult Privacy()
+        {
 			return View();
 		}
 
@@ -34,8 +34,6 @@ namespace cental_server.Controllers
 		{
 			return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
 		}
-
-
 
 		[HttpPost("send")]
 		public async Task<IActionResult> SendToUser([FromQuery] string username, [FromQuery] string message)
@@ -76,6 +74,22 @@ namespace cental_server.Controllers
         public IActionResult GetCountOfClients()
         {
             return Ok(ClientService.GetCountOfClients());
+        }
+
+        [HttpGet("Home/DisconnectClient/{username}")]
+        public async Task<IActionResult> DisconnectClient(string username)
+        {
+            var connectionId = ConnectionHub.GetConnectionIdByUsername(username);
+            if (connectionId == null)
+                return NotFound("Користувач не знайдений або не підключений");
+
+            await _hubContext.Clients.Client(connectionId).SendAsync("ForceDisconnect");
+
+            ClientStorage._userConnections.TryRemove(username, out _);
+            ClientStorage._clientStatus.TryRemove(username, out _);
+
+			Console.WriteLine($"Клієнт '{username}' відключений");
+            return RedirectToAction(nameof(Index));
         }
     }
 

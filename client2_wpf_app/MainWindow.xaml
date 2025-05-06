@@ -6,11 +6,43 @@
         xmlns:local="clr-namespace:client_wpf_app"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
+    <Window.Resources>
+        <Storyboard x:Key="BlinkAnimation" RepeatBehavior="Forever" AutoReverse="True">
+            <ColorAnimation
+        Storyboard.TargetName="StatusIndicator"
+        Storyboard.TargetProperty="(Shape.Fill).(SolidColorBrush.Color)"
+        From="Goldenrod"
+        To="Transparent"
+        Duration="0:0:0.5" />
+        </Storyboard>
+    </Window.Resources>
+    
+
     <Grid>
         <StackPanel Margin="10">
             <TextBox x:Name="MessageTextBox" Margin="0,0,0,5"/>
             <Button Content="Надіслати" Click="SendButton_Click" Margin="0,0,0,5"/>
+            <Button Content="Підключитися до сервера" Click="ReconnectButton_Click" Margin="0,0,0,5"/>
             <ListBox x:Name="MessagesList" Height="200"/>
+
         </StackPanel>
+        
+        <StackPanel Orientation="Horizontal" VerticalAlignment="Top" Margin="10">
+            <Ellipse x:Name="StatusIndicator" Width="16" Height="16" Fill="Red" Stroke="Black" StrokeThickness="1" Margin="0,0,6,0">
+                <Ellipse.Triggers>
+                    <EventTrigger RoutedEvent="Ellipse.Loaded">
+                        <BeginStoryboard x:Name="BlinkStoryboard" Storyboard="{StaticResource BlinkAnimation}" />
+                    </EventTrigger>
+                </Ellipse.Triggers>
+            </Ellipse>
+            <TextBlock x:Name="StatusLabel" Text="Disconnected" FontWeight="Bold"/>
+        </StackPanel>
+
+
     </Grid>
+
+    
+
 </Window>
+    
+    

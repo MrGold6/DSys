@@ -3,28 +3,24 @@
   "WorkspaceRootPath": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\client2_wpf_app\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4F6BC437-49C3-43C9-9323-FFC1FE15C36E}|client_wpf_app.csproj|D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\client2_wpf_app\\services\\calculationparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F6BC437-49C3-43C9-9323-FFC1FE15C36E}|client_wpf_app.csproj|solutionrelative:services\\calculationparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F6BC437-49C3-43C9-9323-FFC1FE15C36E}|client_wpf_app.csproj|D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\client2_wpf_app\\models\\clientstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F6BC437-49C3-43C9-9323-FFC1FE15C36E}|client_wpf_app.csproj|solutionrelative:models\\clientstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4F6BC437-49C3-43C9-9323-FFC1FE15C36E}|client_wpf_app.csproj|d:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\client2_wpf_app\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4F6BC437-49C3-43C9-9323-FFC1FE15C36E}|client_wpf_app.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F6BC437-49C3-43C9-9323-FFC1FE15C36E}|client_wpf_app.csproj|D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\client2_wpf_app\\models\\taskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F6BC437-49C3-43C9-9323-FFC1FE15C36E}|client_wpf_app.csproj|solutionrelative:models\\taskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4F6BC437-49C3-43C9-9323-FFC1FE15C36E}|client_wpf_app.csproj|D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\client2_wpf_app\\models\\taskdtostatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4F6BC437-49C3-43C9-9323-FFC1FE15C36E}|client_wpf_app.csproj|solutionrelative:models\\taskdtostatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F6BC437-49C3-43C9-9323-FFC1FE15C36E}|client_wpf_app.csproj|D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\client2_wpf_app\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{4F6BC437-49C3-43C9-9323-FFC1FE15C36E}|client_wpf_app.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{4F6BC437-49C3-43C9-9323-FFC1FE15C36E}|client_wpf_app.csproj|D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\client2_wpf_app\\models\\taskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F6BC437-49C3-43C9-9323-FFC1FE15C36E}|client_wpf_app.csproj|solutionrelative:models\\taskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F6BC437-49C3-43C9-9323-FFC1FE15C36E}|client_wpf_app.csproj|D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\client2_wpf_app\\services\\calculationparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F6BC437-49C3-43C9-9323-FFC1FE15C36E}|client_wpf_app.csproj|solutionrelative:services\\calculationparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F6BC437-49C3-43C9-9323-FFC1FE15C36E}|client_wpf_app.csproj|D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\client2_wpf_app\\models\\clientstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F6BC437-49C3-43C9-9323-FFC1FE15C36E}|client_wpf_app.csproj|solutionrelative:models\\clientstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,17 +30,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\client2_wpf_app\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
               "ToolTip": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\client2_wpf_app\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AQIAAHMAAAAAAAAAAAAMwH0AAAAQAAAA",
+              "ViewState": "AQIAAPcAAAAAAAAAAAAMwAABAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-24T19:57:32.121Z",
               "IsPinned": true,
@@ -56,20 +52,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CalculationParser.cs",
-              "DocumentMoniker": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\client2_wpf_app\\Services\\CalculationParser.cs",
-              "RelativeDocumentMoniker": "Services\\CalculationParser.cs",
-              "ToolTip": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\client2_wpf_app\\Services\\CalculationParser.cs",
-              "RelativeToolTip": "Services\\CalculationParser.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAUwBMAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-27T00:14:04.658Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "TaskDTOStatus.cs",
               "DocumentMoniker": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\client2_wpf_app\\Models\\TaskDTOStatus.cs",
               "RelativeDocumentMoniker": "Models\\TaskDTOStatus.cs",
@@ -81,7 +64,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "ClientStatus.cs",
               "DocumentMoniker": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\client2_wpf_app\\Models\\ClientStatus.cs",
               "RelativeDocumentMoniker": "Models\\ClientStatus.cs",
@@ -89,31 +72,31 @@
               "RelativeToolTip": "Models\\ClientStatus.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-27T00:10:52.354Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-27T00:10:52.354Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "CalculationParser.cs",
+              "DocumentMoniker": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\client2_wpf_app\\Services\\CalculationParser.cs",
+              "RelativeDocumentMoniker": "Services\\CalculationParser.cs",
+              "ToolTip": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\client2_wpf_app\\Services\\CalculationParser.cs",
+              "RelativeToolTip": "Services\\CalculationParser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAUwAwAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T00:14:04.658Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "TaskDTO.cs",
               "DocumentMoniker": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\client2_wpf_app\\Models\\TaskDTO.cs",
               "RelativeDocumentMoniker": "Models\\TaskDTO.cs",
               "ToolTip": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\client2_wpf_app\\Models\\TaskDTO.cs",
               "RelativeToolTip": "Models\\TaskDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAqAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA0AAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-27T00:07:21.613Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\client2_wpf_app\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "MainWindow.xaml",
-              "ToolTip": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\client2_wpf_app\\MainWindow.xaml",
-              "RelativeToolTip": "MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-24T19:57:32.429Z"
             }
           ]
         },
