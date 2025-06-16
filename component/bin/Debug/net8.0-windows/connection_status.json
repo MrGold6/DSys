@@ -1,0 +1,25 @@
+{
+  "CenterId": "http://172.20.10.2:7100",
+  "Nodes": [
+    {
+      "ClientId": "LAPTOP-T17UELM4",
+      "ClientUrl": "http://172.20.10.2:7100",
+      "CpuUsage": 63.62,
+      "MemoryUsage": 136.76,
+      "IsCenter": false,
+      "Timestamp": "2025-06-16T02:46:50.408026+02:00",
+      "TotalMemoryMB": 7597,
+      "MemoryUsagePercent": 1
+    },
+    {
+      "ClientId": "MAXPAS",
+      "ClientUrl": "http://172.20.10.6:7101",
+      "CpuUsage": 4.29,
+      "MemoryUsage": 312.37,
+      "IsCenter": false,
+      "Timestamp": "2025-06-16T02:46:27.1289984+02:00",
+      "TotalMemoryMB": 15661,
+      "MemoryUsagePercent": 1
+    }
+  ]
+}

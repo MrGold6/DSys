@@ -1,0 +1,29 @@
+﻿@model cental_server.Models.TaskViewModel
+
+<div class="container py-5 bg-dark text-white">
+    <h2 class="text-center mb-4">Проміжні обчислення для задачі</h2>
+
+    <div id="status-container">
+        @await Html.PartialAsync("TasksExpressionPartial", Model)
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+     function isModalOpen() {
+        return document.querySelector('.modal.show') !== null;
+    }
+
+    function refreshStatus() {
+         if (!isModalOpen()) {
+            $.ajax({
+                url: '/Network/TasksPartial?taskId=' + @Model.Task.TaskId,
+                success: function (data) {
+                    $('#status-container').html(data);
+                }
+            });
+         }
+    }
+
+    setInterval(refreshStatus, 5000); // оновлення кожні 5 секунд
+</script>

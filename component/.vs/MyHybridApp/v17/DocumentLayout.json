@@ -1,0 +1,843 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\MyHybridApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{26ACE4C6-027D-EDB4-DCD7-4E5DA9B6E76D}|MyHybridApp.csproj|d:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\myhybridapp\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26ACE4C6-027D-EDB4-DCD7-4E5DA9B6E76D}|MyHybridApp.csproj|solutionrelative:startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26ACE4C6-027D-EDB4-DCD7-4E5DA9B6E76D}|MyHybridApp.csproj|d:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\myhybridapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26ACE4C6-027D-EDB4-DCD7-4E5DA9B6E76D}|MyHybridApp.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26ACE4C6-027D-EDB4-DCD7-4E5DA9B6E76D}|MyHybridApp.csproj|d:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\myhybridapp\\services\\statusservice\\centermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26ACE4C6-027D-EDB4-DCD7-4E5DA9B6E76D}|MyHybridApp.csproj|solutionrelative:services\\statusservice\\centermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26ACE4C6-027D-EDB4-DCD7-4E5DA9B6E76D}|MyHybridApp.csproj|d:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\myhybridapp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26ACE4C6-027D-EDB4-DCD7-4E5DA9B6E76D}|MyHybridApp.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26ACE4C6-027D-EDB4-DCD7-4E5DA9B6E76D}|MyHybridApp.csproj|d:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\myhybridapp\\storage\\taskstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26ACE4C6-027D-EDB4-DCD7-4E5DA9B6E76D}|MyHybridApp.csproj|solutionrelative:storage\\taskstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26ACE4C6-027D-EDB4-DCD7-4E5DA9B6E76D}|MyHybridApp.csproj|d:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\myhybridapp\\storage\\peerstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26ACE4C6-027D-EDB4-DCD7-4E5DA9B6E76D}|MyHybridApp.csproj|solutionrelative:storage\\peerstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26ACE4C6-027D-EDB4-DCD7-4E5DA9B6E76D}|MyHybridApp.csproj|d:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\myhybridapp\\storage\\clientstatusstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26ACE4C6-027D-EDB4-DCD7-4E5DA9B6E76D}|MyHybridApp.csproj|solutionrelative:storage\\clientstatusstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26ACE4C6-027D-EDB4-DCD7-4E5DA9B6E76D}|MyHybridApp.csproj|d:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\myhybridapp\\services\\taskservices\\taskmonitorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26ACE4C6-027D-EDB4-DCD7-4E5DA9B6E76D}|MyHybridApp.csproj|solutionrelative:services\\taskservices\\taskmonitorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26ACE4C6-027D-EDB4-DCD7-4E5DA9B6E76D}|MyHybridApp.csproj|d:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\myhybridapp\\services\\taskservices\\taskdistributor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26ACE4C6-027D-EDB4-DCD7-4E5DA9B6E76D}|MyHybridApp.csproj|solutionrelative:services\\taskservices\\taskdistributor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26ACE4C6-027D-EDB4-DCD7-4E5DA9B6E76D}|MyHybridApp.csproj|d:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\myhybridapp\\services\\taskservices\\calculateresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26ACE4C6-027D-EDB4-DCD7-4E5DA9B6E76D}|MyHybridApp.csproj|solutionrelative:services\\taskservices\\calculateresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26ACE4C6-027D-EDB4-DCD7-4E5DA9B6E76D}|MyHybridApp.csproj|d:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\myhybridapp\\services\\taskservices\\taskdispatcher\\sum\\sumworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26ACE4C6-027D-EDB4-DCD7-4E5DA9B6E76D}|MyHybridApp.csproj|solutionrelative:services\\taskservices\\taskdispatcher\\sum\\sumworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26ACE4C6-027D-EDB4-DCD7-4E5DA9B6E76D}|MyHybridApp.csproj|d:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\myhybridapp\\services\\taskservices\\taskdispatcher\\sum\\sumdispatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26ACE4C6-027D-EDB4-DCD7-4E5DA9B6E76D}|MyHybridApp.csproj|solutionrelative:services\\taskservices\\taskdispatcher\\sum\\sumdispatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26ACE4C6-027D-EDB4-DCD7-4E5DA9B6E76D}|MyHybridApp.csproj|d:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\myhybridapp\\services\\taskservices\\taskdispatcher\\stddev\\stddevworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26ACE4C6-027D-EDB4-DCD7-4E5DA9B6E76D}|MyHybridApp.csproj|solutionrelative:services\\taskservices\\taskdispatcher\\stddev\\stddevworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26ACE4C6-027D-EDB4-DCD7-4E5DA9B6E76D}|MyHybridApp.csproj|d:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\myhybridapp\\services\\taskservices\\taskdispatcher\\stddev\\stddevexpressionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26ACE4C6-027D-EDB4-DCD7-4E5DA9B6E76D}|MyHybridApp.csproj|solutionrelative:services\\taskservices\\taskdispatcher\\stddev\\stddevexpressionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26ACE4C6-027D-EDB4-DCD7-4E5DA9B6E76D}|MyHybridApp.csproj|d:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\myhybridapp\\services\\taskservices\\taskdispatcher\\stddev\\stddevdispatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26ACE4C6-027D-EDB4-DCD7-4E5DA9B6E76D}|MyHybridApp.csproj|solutionrelative:services\\taskservices\\taskdispatcher\\stddev\\stddevdispatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26ACE4C6-027D-EDB4-DCD7-4E5DA9B6E76D}|MyHybridApp.csproj|d:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\myhybridapp\\services\\taskservices\\taskdispatcher\\scalarproduct\\scalarproductworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26ACE4C6-027D-EDB4-DCD7-4E5DA9B6E76D}|MyHybridApp.csproj|solutionrelative:services\\taskservices\\taskdispatcher\\scalarproduct\\scalarproductworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26ACE4C6-027D-EDB4-DCD7-4E5DA9B6E76D}|MyHybridApp.csproj|d:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\myhybridapp\\services\\taskservices\\taskdispatcher\\scalarproduct\\scalarproductdispatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26ACE4C6-027D-EDB4-DCD7-4E5DA9B6E76D}|MyHybridApp.csproj|solutionrelative:services\\taskservices\\taskdispatcher\\scalarproduct\\scalarproductdispatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26ACE4C6-027D-EDB4-DCD7-4E5DA9B6E76D}|MyHybridApp.csproj|d:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\myhybridapp\\services\\taskservices\\taskdispatcher\\scalarproduct\\scalarinputmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26ACE4C6-027D-EDB4-DCD7-4E5DA9B6E76D}|MyHybridApp.csproj|solutionrelative:services\\taskservices\\taskdispatcher\\scalarproduct\\scalarinputmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26ACE4C6-027D-EDB4-DCD7-4E5DA9B6E76D}|MyHybridApp.csproj|d:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\myhybridapp\\services\\taskservices\\taskdispatcher\\multiplicationofbignumbers\\multiplicationofbignumbersdispatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26ACE4C6-027D-EDB4-DCD7-4E5DA9B6E76D}|MyHybridApp.csproj|solutionrelative:services\\taskservices\\taskdispatcher\\multiplicationofbignumbers\\multiplicationofbignumbersdispatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26ACE4C6-027D-EDB4-DCD7-4E5DA9B6E76D}|MyHybridApp.csproj|d:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\myhybridapp\\services\\taskservices\\taskdispatcher\\multiplicationofbignumbers\\calculationparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26ACE4C6-027D-EDB4-DCD7-4E5DA9B6E76D}|MyHybridApp.csproj|solutionrelative:services\\taskservices\\taskdispatcher\\multiplicationofbignumbers\\calculationparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26ACE4C6-027D-EDB4-DCD7-4E5DA9B6E76D}|MyHybridApp.csproj|d:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\myhybridapp\\services\\taskservices\\taskdispatcher\\minmax\\minmaxworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26ACE4C6-027D-EDB4-DCD7-4E5DA9B6E76D}|MyHybridApp.csproj|solutionrelative:services\\taskservices\\taskdispatcher\\minmax\\minmaxworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26ACE4C6-027D-EDB4-DCD7-4E5DA9B6E76D}|MyHybridApp.csproj|d:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\myhybridapp\\services\\taskservices\\taskdispatcher\\minmax\\minmaxdispatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26ACE4C6-027D-EDB4-DCD7-4E5DA9B6E76D}|MyHybridApp.csproj|solutionrelative:services\\taskservices\\taskdispatcher\\minmax\\minmaxdispatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26ACE4C6-027D-EDB4-DCD7-4E5DA9B6E76D}|MyHybridApp.csproj|d:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\myhybridapp\\services\\taskservices\\taskdispatcher\\factorial\\factorialdispatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26ACE4C6-027D-EDB4-DCD7-4E5DA9B6E76D}|MyHybridApp.csproj|solutionrelative:services\\taskservices\\taskdispatcher\\factorial\\factorialdispatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26ACE4C6-027D-EDB4-DCD7-4E5DA9B6E76D}|MyHybridApp.csproj|d:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\myhybridapp\\services\\taskservices\\taskdispatcher\\factorial\\expressionsplitter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26ACE4C6-027D-EDB4-DCD7-4E5DA9B6E76D}|MyHybridApp.csproj|solutionrelative:services\\taskservices\\taskdispatcher\\factorial\\expressionsplitter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26ACE4C6-027D-EDB4-DCD7-4E5DA9B6E76D}|MyHybridApp.csproj|d:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\myhybridapp\\services\\taskservices\\taskdispatcher\\evennumber\\evennumberworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26ACE4C6-027D-EDB4-DCD7-4E5DA9B6E76D}|MyHybridApp.csproj|solutionrelative:services\\taskservices\\taskdispatcher\\evennumber\\evennumberworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26ACE4C6-027D-EDB4-DCD7-4E5DA9B6E76D}|MyHybridApp.csproj|d:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\myhybridapp\\services\\taskservices\\taskdispatcher\\evennumber\\evennumberdispatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26ACE4C6-027D-EDB4-DCD7-4E5DA9B6E76D}|MyHybridApp.csproj|solutionrelative:services\\taskservices\\taskdispatcher\\evennumber\\evennumberdispatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26ACE4C6-027D-EDB4-DCD7-4E5DA9B6E76D}|MyHybridApp.csproj|d:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\myhybridapp\\services\\taskservices\\taskdispatcher\\densematrix\\densematrixworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26ACE4C6-027D-EDB4-DCD7-4E5DA9B6E76D}|MyHybridApp.csproj|solutionrelative:services\\taskservices\\taskdispatcher\\densematrix\\densematrixworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26ACE4C6-027D-EDB4-DCD7-4E5DA9B6E76D}|MyHybridApp.csproj|d:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\myhybridapp\\services\\taskservices\\taskdispatcher\\densematrix\\densematrixpatialresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26ACE4C6-027D-EDB4-DCD7-4E5DA9B6E76D}|MyHybridApp.csproj|solutionrelative:services\\taskservices\\taskdispatcher\\densematrix\\densematrixpatialresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26ACE4C6-027D-EDB4-DCD7-4E5DA9B6E76D}|MyHybridApp.csproj|d:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\myhybridapp\\services\\taskservices\\taskdispatcher\\densematrix\\densematrixmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26ACE4C6-027D-EDB4-DCD7-4E5DA9B6E76D}|MyHybridApp.csproj|solutionrelative:services\\taskservices\\taskdispatcher\\densematrix\\densematrixmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26ACE4C6-027D-EDB4-DCD7-4E5DA9B6E76D}|MyHybridApp.csproj|d:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\myhybridapp\\services\\taskservices\\taskdispatcher\\densematrix\\densematrixdispatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26ACE4C6-027D-EDB4-DCD7-4E5DA9B6E76D}|MyHybridApp.csproj|solutionrelative:services\\taskservices\\taskdispatcher\\densematrix\\densematrixdispatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26ACE4C6-027D-EDB4-DCD7-4E5DA9B6E76D}|MyHybridApp.csproj|d:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\myhybridapp\\services\\statusservice\\statusmonitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26ACE4C6-027D-EDB4-DCD7-4E5DA9B6E76D}|MyHybridApp.csproj|solutionrelative:services\\statusservice\\statusmonitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26ACE4C6-027D-EDB4-DCD7-4E5DA9B6E76D}|MyHybridApp.csproj|d:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\myhybridapp\\services\\peerservices\\peerhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26ACE4C6-027D-EDB4-DCD7-4E5DA9B6E76D}|MyHybridApp.csproj|solutionrelative:services\\peerservices\\peerhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26ACE4C6-027D-EDB4-DCD7-4E5DA9B6E76D}|MyHybridApp.csproj|d:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\myhybridapp\\services\\peerservices\\peerconnector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26ACE4C6-027D-EDB4-DCD7-4E5DA9B6E76D}|MyHybridApp.csproj|solutionrelative:services\\peerservices\\peerconnector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26ACE4C6-027D-EDB4-DCD7-4E5DA9B6E76D}|MyHybridApp.csproj|d:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\myhybridapp\\repository\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26ACE4C6-027D-EDB4-DCD7-4E5DA9B6E76D}|MyHybridApp.csproj|solutionrelative:repository\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26ACE4C6-027D-EDB4-DCD7-4E5DA9B6E76D}|MyHybridApp.csproj|d:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\myhybridapp\\repository\\resultrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26ACE4C6-027D-EDB4-DCD7-4E5DA9B6E76D}|MyHybridApp.csproj|solutionrelative:repository\\resultrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26ACE4C6-027D-EDB4-DCD7-4E5DA9B6E76D}|MyHybridApp.csproj|d:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\myhybridapp\\models\\taskmodel\\mytaskstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26ACE4C6-027D-EDB4-DCD7-4E5DA9B6E76D}|MyHybridApp.csproj|solutionrelative:models\\taskmodel\\mytaskstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26ACE4C6-027D-EDB4-DCD7-4E5DA9B6E76D}|MyHybridApp.csproj|d:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\myhybridapp\\models\\taskmodel\\mytask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26ACE4C6-027D-EDB4-DCD7-4E5DA9B6E76D}|MyHybridApp.csproj|solutionrelative:models\\taskmodel\\mytask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26ACE4C6-027D-EDB4-DCD7-4E5DA9B6E76D}|MyHybridApp.csproj|d:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\myhybridapp\\helper\\networkservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26ACE4C6-027D-EDB4-DCD7-4E5DA9B6E76D}|MyHybridApp.csproj|solutionrelative:helper\\networkservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26ACE4C6-027D-EDB4-DCD7-4E5DA9B6E76D}|MyHybridApp.csproj|d:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\myhybridapp\\helper\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26ACE4C6-027D-EDB4-DCD7-4E5DA9B6E76D}|MyHybridApp.csproj|solutionrelative:helper\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26ACE4C6-027D-EDB4-DCD7-4E5DA9B6E76D}|MyHybridApp.csproj|d:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\myhybridapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{26ACE4C6-027D-EDB4-DCD7-4E5DA9B6E76D}|MyHybridApp.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26ACE4C6-027D-EDB4-DCD7-4E5DA9B6E76D}|MyHybridApp.csproj|d:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\myhybridapp\\models\\taskmodel\\mytasktype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26ACE4C6-027D-EDB4-DCD7-4E5DA9B6E76D}|MyHybridApp.csproj|solutionrelative:models\\taskmodel\\mytasktype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26ACE4C6-027D-EDB4-DCD7-4E5DA9B6E76D}|MyHybridApp.csproj|d:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\myhybridapp\\models\\taskmodel\\taskexpression.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26ACE4C6-027D-EDB4-DCD7-4E5DA9B6E76D}|MyHybridApp.csproj|solutionrelative:models\\taskmodel\\taskexpression.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26ACE4C6-027D-EDB4-DCD7-4E5DA9B6E76D}|MyHybridApp.csproj|d:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\myhybridapp\\models\\clientstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26ACE4C6-027D-EDB4-DCD7-4E5DA9B6E76D}|MyHybridApp.csproj|solutionrelative:models\\clientstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26ACE4C6-027D-EDB4-DCD7-4E5DA9B6E76D}|MyHybridApp.csproj|d:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\myhybridapp\\models\\peerfilemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26ACE4C6-027D-EDB4-DCD7-4E5DA9B6E76D}|MyHybridApp.csproj|solutionrelative:models\\peerfilemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26ACE4C6-027D-EDB4-DCD7-4E5DA9B6E76D}|MyHybridApp.csproj|d:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\myhybridapp\\models\\clusterstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26ACE4C6-027D-EDB4-DCD7-4E5DA9B6E76D}|MyHybridApp.csproj|solutionrelative:models\\clusterstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Valeri\\AppData\\Local\\Temp\\.vsdbgsrc\\1b77cb146b3dc6f60ca3b7de619b68fc3904b4f03155b255fa425d7d7bd36ae9\\PropertyPathWorker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26ACE4C6-027D-EDB4-DCD7-4E5DA9B6E76D}|MyHybridApp.csproj|d:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\myhybridapp\\myhybridapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{26ACE4C6-027D-EDB4-DCD7-4E5DA9B6E76D}|MyHybridApp.csproj|solutionrelative:myhybridapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\MyHybridApp__3.0\\bin\\Debug\\net8.0-windows\\connection_status.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\MyHybridApp__2.0__2\\bin\\Debug\\net8.0-windows\\connection_status.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\9.0.300-preview.0.25177.5\\Sdks\\Microsoft.NET.Sdk.WindowsDesktop\\targets\\Microsoft.WinFX.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26ACE4C6-027D-EDB4-DCD7-4E5DA9B6E76D}|MyHybridApp.csproj|d:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\myhybridapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{26ACE4C6-027D-EDB4-DCD7-4E5DA9B6E76D}|MyHybridApp.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PeerStore.cs",
+              "DocumentMoniker": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\MyHybridApp\\Storage\\PeerStore.cs",
+              "RelativeDocumentMoniker": "Storage\\PeerStore.cs",
+              "ToolTip": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\MyHybridApp\\Storage\\PeerStore.cs",
+              "RelativeToolTip": "Storage\\PeerStore.cs",
+              "ViewState": "AgIAAIYAAAAAAAAAAAAAAB8AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T01:10:30.661Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TaskStorage.cs",
+              "DocumentMoniker": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\MyHybridApp\\Storage\\TaskStorage.cs",
+              "RelativeDocumentMoniker": "Storage\\TaskStorage.cs",
+              "ToolTip": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\MyHybridApp\\Storage\\TaskStorage.cs",
+              "RelativeToolTip": "Storage\\TaskStorage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T14:04:36.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\MyHybridApp\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\MyHybridApp\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T23:28:40.978Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\MyHybridApp\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\MyHybridApp\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAAFwBAAAAAAAAAAAAAFoBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T22:13:40.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CenterManager.cs",
+              "DocumentMoniker": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\MyHybridApp\\Services\\StatusService\\CenterManager.cs",
+              "RelativeDocumentMoniker": "Services\\StatusService\\CenterManager.cs",
+              "ToolTip": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\MyHybridApp\\Services\\StatusService\\CenterManager.cs",
+              "RelativeToolTip": "Services\\StatusService\\CenterManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T20:59:05.371Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\MyHybridApp\\Startup.cs",
+              "RelativeDocumentMoniker": "Startup.cs",
+              "ToolTip": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\MyHybridApp\\Startup.cs",
+              "RelativeToolTip": "Startup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAcwAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T23:16:17.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ClientStatusStore.cs",
+              "DocumentMoniker": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\MyHybridApp\\Storage\\ClientStatusStore.cs",
+              "RelativeDocumentMoniker": "Storage\\ClientStatusStore.cs",
+              "ToolTip": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\MyHybridApp\\Storage\\ClientStatusStore.cs",
+              "RelativeToolTip": "Storage\\ClientStatusStore.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAAADEAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T20:29:22.833Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TaskMonitorService.cs",
+              "DocumentMoniker": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\MyHybridApp\\Services\\TaskServices\\TaskMonitorService.cs",
+              "RelativeDocumentMoniker": "Services\\TaskServices\\TaskMonitorService.cs",
+              "ToolTip": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\MyHybridApp\\Services\\TaskServices\\TaskMonitorService.cs",
+              "RelativeToolTip": "Services\\TaskServices\\TaskMonitorService.cs",
+              "ViewState": "AgIAAJcAAAAAAAAAAAAkwJsAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T20:34:07.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TaskDistributor.cs",
+              "DocumentMoniker": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\MyHybridApp\\Services\\TaskServices\\TaskDistributor.cs",
+              "RelativeDocumentMoniker": "Services\\TaskServices\\TaskDistributor.cs",
+              "ToolTip": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\MyHybridApp\\Services\\TaskServices\\TaskDistributor.cs",
+              "RelativeToolTip": "Services\\TaskServices\\TaskDistributor.cs",
+              "ViewState": "AgIAAKIAAAAAAAAAAAAYwHAAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T00:56:59.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CalculateResult.cs",
+              "DocumentMoniker": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\MyHybridApp\\Services\\TaskServices\\CalculateResult.cs",
+              "RelativeDocumentMoniker": "Services\\TaskServices\\CalculateResult.cs",
+              "ToolTip": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\MyHybridApp\\Services\\TaskServices\\CalculateResult.cs",
+              "RelativeToolTip": "Services\\TaskServices\\CalculateResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJ8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T13:23:42.943Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SumWorker.cs",
+              "DocumentMoniker": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\MyHybridApp\\Services\\TaskServices\\TaskDispatcher\\Sum\\SumWorker.cs",
+              "RelativeDocumentMoniker": "Services\\TaskServices\\TaskDispatcher\\Sum\\SumWorker.cs",
+              "ToolTip": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\MyHybridApp\\Services\\TaskServices\\TaskDispatcher\\Sum\\SumWorker.cs",
+              "RelativeToolTip": "Services\\TaskServices\\TaskDispatcher\\Sum\\SumWorker.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAASwBEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T13:15:55.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SumDispatcher.cs",
+              "DocumentMoniker": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\MyHybridApp\\Services\\TaskServices\\TaskDispatcher\\Sum\\SumDispatcher.cs",
+              "RelativeDocumentMoniker": "Services\\TaskServices\\TaskDispatcher\\Sum\\SumDispatcher.cs",
+              "ToolTip": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\MyHybridApp\\Services\\TaskServices\\TaskDispatcher\\Sum\\SumDispatcher.cs",
+              "RelativeToolTip": "Services\\TaskServices\\TaskDispatcher\\Sum\\SumDispatcher.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAYwEgAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T13:15:40.14Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "StdDevWorker.cs",
+              "DocumentMoniker": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\MyHybridApp\\Services\\TaskServices\\TaskDispatcher\\StdDev\\StdDevWorker.cs",
+              "RelativeDocumentMoniker": "Services\\TaskServices\\TaskDispatcher\\StdDev\\StdDevWorker.cs",
+              "ToolTip": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\MyHybridApp\\Services\\TaskServices\\TaskDispatcher\\StdDev\\StdDevWorker.cs",
+              "RelativeToolTip": "Services\\TaskServices\\TaskDispatcher\\StdDev\\StdDevWorker.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T22:07:36.364Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "StdDevExpressionModel.cs",
+              "DocumentMoniker": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\MyHybridApp\\Services\\TaskServices\\TaskDispatcher\\StdDev\\StdDevExpressionModel.cs",
+              "RelativeDocumentMoniker": "Services\\TaskServices\\TaskDispatcher\\StdDev\\StdDevExpressionModel.cs",
+              "ToolTip": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\MyHybridApp\\Services\\TaskServices\\TaskDispatcher\\StdDev\\StdDevExpressionModel.cs",
+              "RelativeToolTip": "Services\\TaskServices\\TaskDispatcher\\StdDev\\StdDevExpressionModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T22:22:56.574Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "StdDevDispatcher.cs",
+              "DocumentMoniker": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\MyHybridApp\\Services\\TaskServices\\TaskDispatcher\\StdDev\\StdDevDispatcher.cs",
+              "RelativeDocumentMoniker": "Services\\TaskServices\\TaskDispatcher\\StdDev\\StdDevDispatcher.cs",
+              "ToolTip": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\MyHybridApp\\Services\\TaskServices\\TaskDispatcher\\StdDev\\StdDevDispatcher.cs",
+              "RelativeToolTip": "Services\\TaskServices\\TaskDispatcher\\StdDev\\StdDevDispatcher.cs",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAiwGkAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T22:00:24.382Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ScalarProductWorker.cs",
+              "DocumentMoniker": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\MyHybridApp\\Services\\TaskServices\\TaskDispatcher\\ScalarProduct\\ScalarProductWorker.cs",
+              "RelativeDocumentMoniker": "Services\\TaskServices\\TaskDispatcher\\ScalarProduct\\ScalarProductWorker.cs",
+              "ToolTip": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\MyHybridApp\\Services\\TaskServices\\TaskDispatcher\\ScalarProduct\\ScalarProductWorker.cs",
+              "RelativeToolTip": "Services\\TaskServices\\TaskDispatcher\\ScalarProduct\\ScalarProductWorker.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T15:04:47.974Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ScalarProductDispatcher.cs",
+              "DocumentMoniker": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\MyHybridApp\\Services\\TaskServices\\TaskDispatcher\\ScalarProduct\\ScalarProductDispatcher.cs",
+              "RelativeDocumentMoniker": "Services\\TaskServices\\TaskDispatcher\\ScalarProduct\\ScalarProductDispatcher.cs",
+              "ToolTip": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\MyHybridApp\\Services\\TaskServices\\TaskDispatcher\\ScalarProduct\\ScalarProductDispatcher.cs",
+              "RelativeToolTip": "Services\\TaskServices\\TaskDispatcher\\ScalarProduct\\ScalarProductDispatcher.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAgwFUAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T15:04:31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ScalarInputModel.cs",
+              "DocumentMoniker": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\MyHybridApp\\Services\\TaskServices\\TaskDispatcher\\ScalarProduct\\ScalarInputModel.cs",
+              "RelativeDocumentMoniker": "Services\\TaskServices\\TaskDispatcher\\ScalarProduct\\ScalarInputModel.cs",
+              "ToolTip": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\MyHybridApp\\Services\\TaskServices\\TaskDispatcher\\ScalarProduct\\ScalarInputModel.cs",
+              "RelativeToolTip": "Services\\TaskServices\\TaskDispatcher\\ScalarProduct\\ScalarInputModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T15:04:18.512Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MultiplicationOfBigNumbersDispatcher.cs",
+              "DocumentMoniker": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\MyHybridApp\\Services\\TaskServices\\TaskDispatcher\\MultiplicationOfBigNumbers\\MultiplicationOfBigNumbersDispatcher.cs",
+              "RelativeDocumentMoniker": "Services\\TaskServices\\TaskDispatcher\\MultiplicationOfBigNumbers\\MultiplicationOfBigNumbersDispatcher.cs",
+              "ToolTip": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\MyHybridApp\\Services\\TaskServices\\TaskDispatcher\\MultiplicationOfBigNumbers\\MultiplicationOfBigNumbersDispatcher.cs",
+              "RelativeToolTip": "Services\\TaskServices\\TaskDispatcher\\MultiplicationOfBigNumbers\\MultiplicationOfBigNumbersDispatcher.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAQwEEAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T00:15:00.995Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CalculationParser.cs",
+              "DocumentMoniker": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\MyHybridApp\\Services\\TaskServices\\TaskDispatcher\\MultiplicationOfBigNumbers\\CalculationParser.cs",
+              "RelativeDocumentMoniker": "Services\\TaskServices\\TaskDispatcher\\MultiplicationOfBigNumbers\\CalculationParser.cs",
+              "ToolTip": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\MyHybridApp\\Services\\TaskServices\\TaskDispatcher\\MultiplicationOfBigNumbers\\CalculationParser.cs",
+              "RelativeToolTip": "Services\\TaskServices\\TaskDispatcher\\MultiplicationOfBigNumbers\\CalculationParser.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAADwvw0AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T23:22:20.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "MinMaxWorker.cs",
+              "DocumentMoniker": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\MyHybridApp\\Services\\TaskServices\\TaskDispatcher\\MinMax\\MinMaxWorker.cs",
+              "RelativeDocumentMoniker": "Services\\TaskServices\\TaskDispatcher\\MinMax\\MinMaxWorker.cs",
+              "ToolTip": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\MyHybridApp\\Services\\TaskServices\\TaskDispatcher\\MinMax\\MinMaxWorker.cs",
+              "RelativeToolTip": "Services\\TaskServices\\TaskDispatcher\\MinMax\\MinMaxWorker.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAASwAwAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T00:14:27.112Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "MinMaxDispatcher.cs",
+              "DocumentMoniker": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\MyHybridApp\\Services\\TaskServices\\TaskDispatcher\\MinMax\\MinMaxDispatcher.cs",
+              "RelativeDocumentMoniker": "Services\\TaskServices\\TaskDispatcher\\MinMax\\MinMaxDispatcher.cs",
+              "ToolTip": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\MyHybridApp\\Services\\TaskServices\\TaskDispatcher\\MinMax\\MinMaxDispatcher.cs",
+              "RelativeToolTip": "Services\\TaskServices\\TaskDispatcher\\MinMax\\MinMaxDispatcher.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAYwE0AAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T00:14:09.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "FactorialDispatcher.cs",
+              "DocumentMoniker": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\MyHybridApp\\Services\\TaskServices\\TaskDispatcher\\Factorial\\FactorialDispatcher.cs",
+              "RelativeDocumentMoniker": "Services\\TaskServices\\TaskDispatcher\\Factorial\\FactorialDispatcher.cs",
+              "ToolTip": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\MyHybridApp\\Services\\TaskServices\\TaskDispatcher\\Factorial\\FactorialDispatcher.cs",
+              "RelativeToolTip": "Services\\TaskServices\\TaskDispatcher\\Factorial\\FactorialDispatcher.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAQwEEAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T00:15:38.536Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ExpressionSplitter.cs",
+              "DocumentMoniker": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\MyHybridApp\\Services\\TaskServices\\TaskDispatcher\\Factorial\\ExpressionSplitter.cs",
+              "RelativeDocumentMoniker": "Services\\TaskServices\\TaskDispatcher\\Factorial\\ExpressionSplitter.cs",
+              "ToolTip": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\MyHybridApp\\Services\\TaskServices\\TaskDispatcher\\Factorial\\ExpressionSplitter.cs",
+              "RelativeToolTip": "Services\\TaskServices\\TaskDispatcher\\Factorial\\ExpressionSplitter.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T22:58:43.086Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "EvenNumberWorker.cs",
+              "DocumentMoniker": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\MyHybridApp\\Services\\TaskServices\\TaskDispatcher\\EvenNumber\\EvenNumberWorker.cs",
+              "RelativeDocumentMoniker": "Services\\TaskServices\\TaskDispatcher\\EvenNumber\\EvenNumberWorker.cs",
+              "ToolTip": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\MyHybridApp\\Services\\TaskServices\\TaskDispatcher\\EvenNumber\\EvenNumberWorker.cs",
+              "RelativeToolTip": "Services\\TaskServices\\TaskDispatcher\\EvenNumber\\EvenNumberWorker.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T14:19:01.288Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "EvenNumberDispatcher.cs",
+              "DocumentMoniker": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\MyHybridApp\\Services\\TaskServices\\TaskDispatcher\\EvenNumber\\EvenNumberDispatcher.cs",
+              "RelativeDocumentMoniker": "Services\\TaskServices\\TaskDispatcher\\EvenNumber\\EvenNumberDispatcher.cs",
+              "ToolTip": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\MyHybridApp\\Services\\TaskServices\\TaskDispatcher\\EvenNumber\\EvenNumberDispatcher.cs",
+              "RelativeToolTip": "Services\\TaskServices\\TaskDispatcher\\EvenNumber\\EvenNumberDispatcher.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAYwEwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T14:18:46.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "DenseMatrixWorker.cs",
+              "DocumentMoniker": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\MyHybridApp\\Services\\TaskServices\\TaskDispatcher\\DenseMatrix\\DenseMatrixWorker.cs",
+              "RelativeDocumentMoniker": "Services\\TaskServices\\TaskDispatcher\\DenseMatrix\\DenseMatrixWorker.cs",
+              "ToolTip": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\MyHybridApp\\Services\\TaskServices\\TaskDispatcher\\DenseMatrix\\DenseMatrixWorker.cs",
+              "RelativeToolTip": "Services\\TaskServices\\TaskDispatcher\\DenseMatrix\\DenseMatrixWorker.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAQwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T16:12:13.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "DenseMatrixPatialResult.cs",
+              "DocumentMoniker": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\MyHybridApp\\Services\\TaskServices\\TaskDispatcher\\DenseMatrix\\DenseMatrixPatialResult.cs",
+              "RelativeDocumentMoniker": "Services\\TaskServices\\TaskDispatcher\\DenseMatrix\\DenseMatrixPatialResult.cs",
+              "ToolTip": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\MyHybridApp\\Services\\TaskServices\\TaskDispatcher\\DenseMatrix\\DenseMatrixPatialResult.cs",
+              "RelativeToolTip": "Services\\TaskServices\\TaskDispatcher\\DenseMatrix\\DenseMatrixPatialResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T16:35:48.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "DenseMatrixModel.cs",
+              "DocumentMoniker": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\MyHybridApp\\Services\\TaskServices\\TaskDispatcher\\DenseMatrix\\DenseMatrixModel.cs",
+              "RelativeDocumentMoniker": "Services\\TaskServices\\TaskDispatcher\\DenseMatrix\\DenseMatrixModel.cs",
+              "ToolTip": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\MyHybridApp\\Services\\TaskServices\\TaskDispatcher\\DenseMatrix\\DenseMatrixModel.cs",
+              "RelativeToolTip": "Services\\TaskServices\\TaskDispatcher\\DenseMatrix\\DenseMatrixModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T16:11:13.228Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "DenseMatrixDispatcher.cs",
+              "DocumentMoniker": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\MyHybridApp\\Services\\TaskServices\\TaskDispatcher\\DenseMatrix\\DenseMatrixDispatcher.cs",
+              "RelativeDocumentMoniker": "Services\\TaskServices\\TaskDispatcher\\DenseMatrix\\DenseMatrixDispatcher.cs",
+              "ToolTip": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\MyHybridApp\\Services\\TaskServices\\TaskDispatcher\\DenseMatrix\\DenseMatrixDispatcher.cs",
+              "RelativeToolTip": "Services\\TaskServices\\TaskDispatcher\\DenseMatrix\\DenseMatrixDispatcher.cs",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAYwHEAAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T16:11:42.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "StatusMonitor.cs",
+              "DocumentMoniker": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\MyHybridApp\\Services\\StatusService\\StatusMonitor.cs",
+              "RelativeDocumentMoniker": "Services\\StatusService\\StatusMonitor.cs",
+              "ToolTip": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\MyHybridApp\\Services\\StatusService\\StatusMonitor.cs",
+              "RelativeToolTip": "Services\\StatusService\\StatusMonitor.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAYwAwAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T21:57:20.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "PeerHub.cs",
+              "DocumentMoniker": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\MyHybridApp\\Services\\PeerServices\\PeerHub.cs",
+              "RelativeDocumentMoniker": "Services\\PeerServices\\PeerHub.cs",
+              "ToolTip": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\MyHybridApp\\Services\\PeerServices\\PeerHub.cs",
+              "RelativeToolTip": "Services\\PeerServices\\PeerHub.cs",
+              "ViewState": "AgIAAAwBAAAAAAAAAAAkwBMBAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T18:20:45.907Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "PeerConnector.cs",
+              "DocumentMoniker": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\MyHybridApp\\Services\\PeerServices\\PeerConnector.cs",
+              "RelativeDocumentMoniker": "Services\\PeerServices\\PeerConnector.cs",
+              "ToolTip": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\MyHybridApp\\Services\\PeerServices\\PeerConnector.cs",
+              "RelativeToolTip": "Services\\PeerServices\\PeerConnector.cs",
+              "ViewState": "AgIAAPUAAAAAAAAAAAAkwDkBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T23:59:51.351Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "TaskRepository.cs",
+              "DocumentMoniker": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\MyHybridApp\\Repository\\TaskRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\TaskRepository.cs",
+              "ToolTip": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\MyHybridApp\\Repository\\TaskRepository.cs",
+              "RelativeToolTip": "Repository\\TaskRepository.cs",
+              "ViewState": "AgIAACMBAAAAAAAAAAAIwJkAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T16:46:29.234Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ResultRepository.cs",
+              "DocumentMoniker": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\MyHybridApp\\Repository\\ResultRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\ResultRepository.cs",
+              "ToolTip": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\MyHybridApp\\Repository\\ResultRepository.cs",
+              "RelativeToolTip": "Repository\\ResultRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAOIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T17:53:35.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "MyTaskStatus.cs",
+              "DocumentMoniker": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\MyHybridApp\\Models\\TaskModel\\MyTaskStatus.cs",
+              "RelativeDocumentMoniker": "Models\\TaskModel\\MyTaskStatus.cs",
+              "ToolTip": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\MyHybridApp\\Models\\TaskModel\\MyTaskStatus.cs",
+              "RelativeToolTip": "Models\\TaskModel\\MyTaskStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T18:05:33.153Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "MyTask.cs",
+              "DocumentMoniker": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\MyHybridApp\\Models\\TaskModel\\MyTask.cs",
+              "RelativeDocumentMoniker": "Models\\TaskModel\\MyTask.cs",
+              "ToolTip": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\MyHybridApp\\Models\\TaskModel\\MyTask.cs",
+              "RelativeToolTip": "Models\\TaskModel\\MyTask.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAkwA8AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T17:59:55.485Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "NetworkService.cs",
+              "DocumentMoniker": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\MyHybridApp\\Helper\\NetworkService.cs",
+              "RelativeDocumentMoniker": "Helper\\NetworkService.cs",
+              "ToolTip": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\MyHybridApp\\Helper\\NetworkService.cs",
+              "RelativeToolTip": "Helper\\NetworkService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T18:34:31.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Logger.cs",
+              "DocumentMoniker": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\MyHybridApp\\Helper\\Logger.cs",
+              "RelativeDocumentMoniker": "Helper\\Logger.cs",
+              "ToolTip": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\MyHybridApp\\Helper\\Logger.cs",
+              "RelativeToolTip": "Helper\\Logger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T14:48:26.561Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\MyHybridApp\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\MyHybridApp\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-07T23:28:11.306Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "MyTaskType.cs",
+              "DocumentMoniker": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\MyHybridApp\\Models\\TaskModel\\MyTaskType.cs",
+              "RelativeDocumentMoniker": "Models\\TaskModel\\MyTaskType.cs",
+              "ToolTip": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\MyHybridApp\\Models\\TaskModel\\MyTaskType.cs",
+              "RelativeToolTip": "Models\\TaskModel\\MyTaskType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T21:54:48.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "TaskExpression.cs",
+              "DocumentMoniker": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\MyHybridApp\\Models\\TaskModel\\TaskExpression.cs",
+              "RelativeDocumentMoniker": "Models\\TaskModel\\TaskExpression.cs",
+              "ToolTip": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\MyHybridApp\\Models\\TaskModel\\TaskExpression.cs",
+              "RelativeToolTip": "Models\\TaskModel\\TaskExpression.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T00:54:58.909Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "ClientStatus.cs",
+              "DocumentMoniker": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\MyHybridApp\\Models\\ClientStatus.cs",
+              "RelativeDocumentMoniker": "Models\\ClientStatus.cs",
+              "ToolTip": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\MyHybridApp\\Models\\ClientStatus.cs",
+              "RelativeToolTip": "Models\\ClientStatus.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAzwAQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T23:06:14.749Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "PeerFileModel.cs",
+              "DocumentMoniker": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\MyHybridApp\\Models\\PeerFileModel.cs",
+              "RelativeDocumentMoniker": "Models\\PeerFileModel.cs",
+              "ToolTip": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\MyHybridApp\\Models\\PeerFileModel.cs",
+              "RelativeToolTip": "Models\\PeerFileModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T21:16:45.015Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "ClusterStatus.cs",
+              "DocumentMoniker": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\MyHybridApp\\Models\\ClusterStatus.cs",
+              "RelativeDocumentMoniker": "Models\\ClusterStatus.cs",
+              "ToolTip": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\MyHybridApp\\Models\\ClusterStatus.cs",
+              "RelativeToolTip": "Models\\ClusterStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T13:47:16.858Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "PropertyPathWorker.cs",
+              "DocumentMoniker": "C:\\Users\\Valeri\\AppData\\Local\\Temp\\.vsdbgsrc\\1b77cb146b3dc6f60ca3b7de619b68fc3904b4f03155b255fa425d7d7bd36ae9\\PropertyPathWorker.cs",
+              "ToolTip": "C:\\Users\\Valeri\\AppData\\Local\\Temp\\.vsdbgsrc\\1b77cb146b3dc6f60ca3b7de619b68fc3904b4f03155b255fa425d7d7bd36ae9\\PropertyPathWorker.cs [\u0422\u043E\u043B\u044C\u043A\u043E \u0447\u0442\u0435\u043D\u0438\u0435]",
+              "ViewState": "AgIAAKUEAAAAAAAAAAAswLEEAAAEAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T00:06:04.011Z",
+              "EditorCaption": " [\u0422\u043E\u043B\u044C\u043A\u043E \u0447\u0442\u0435\u043D\u0438\u0435]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "MyHybridApp.csproj",
+              "DocumentMoniker": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\MyHybridApp\\MyHybridApp.csproj",
+              "RelativeDocumentMoniker": "MyHybridApp.csproj",
+              "ToolTip": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\MyHybridApp\\MyHybridApp.csproj",
+              "RelativeToolTip": "MyHybridApp.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-01T17:52:34.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "connection_status.json",
+              "DocumentMoniker": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\MyHybridApp__3.0\\bin\\Debug\\net8.0-windows\\connection_status.json",
+              "RelativeDocumentMoniker": "..\\MyHybridApp__3.0\\bin\\Debug\\net8.0-windows\\connection_status.json",
+              "ToolTip": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\MyHybridApp__3.0\\bin\\Debug\\net8.0-windows\\connection_status.json",
+              "RelativeToolTip": "..\\MyHybridApp__3.0\\bin\\Debug\\net8.0-windows\\connection_status.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-17T21:44:14.156Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "connection_status.json",
+              "DocumentMoniker": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\MyHybridApp__2.0__2\\bin\\Debug\\net8.0-windows\\connection_status.json",
+              "RelativeDocumentMoniker": "..\\MyHybridApp__2.0__2\\bin\\Debug\\net8.0-windows\\connection_status.json",
+              "ToolTip": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\MyHybridApp__2.0__2\\bin\\Debug\\net8.0-windows\\connection_status.json",
+              "RelativeToolTip": "..\\MyHybridApp__2.0__2\\bin\\Debug\\net8.0-windows\\connection_status.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-17T14:12:32.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Microsoft.WinFX.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\9.0.300-preview.0.25177.5\\Sdks\\Microsoft.NET.Sdk.WindowsDesktop\\targets\\Microsoft.WinFX.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\9.0.300-preview.0.25177.5\\Sdks\\Microsoft.NET.Sdk.WindowsDesktop\\targets\\Microsoft.WinFX.targets",
+              "ViewState": "AgIAAMkAAAAAAAAAAAAkwNIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-05-09T14:46:00.441Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\MyHybridApp\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "D:\\\u0445\u043D\u0443\\3 \u043A\u0443\u0440\u0441 2 \u0441\u0435\u043C\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u043A\u043E\u0434\\MyHybridApp\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-07T23:28:08.169Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 980,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

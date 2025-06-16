@@ -1,0 +1,187 @@
+﻿@model cental_server.Models.TaskViewModel
+
+<div class="bg-dark text-white rounded p-4 shadow">
+
+    @{
+        string badgeClass = @Model.Task.Status switch
+        {
+            MyTaskStatus.ToDo => "bg-primaty",
+            MyTaskStatus.InProgress => "bg-warning text-dark",
+            MyTaskStatus.Success => "bg-success",
+            _ => "bg-light text-dark"
+        };
+
+        string exprModalId = "modalExpressionSub_" + @Model.Task.TaskId;
+        string resultModalId = "modalResultSub_" + @Model.Task.TaskId;
+        bool longExpr = @Model.Task.Expression?.Length > 34;
+        bool longResult = @Model.Task.Result?.Length > 34;
+    }
+    <!-- Інформація про задачу -->
+    <!-- Заголовок + Статус -->
+    <div class="d-flex justify-content-between align-items-center mb-3">
+        <h4 class="mb-0">Задача <code>@Model.Task.TaskId</code></h4>
+        <span class="badge @badgeClass fs-6 px-3 py-2">@Model.Task.Status</span>
+    </div>
+
+    <!-- Основна інформація -->
+    <div class="row mb-4">
+        <div class="col-md-4"><strong>Час відправки:</strong> @Model.Task.Timestamp.ToString("dd.MM.yyyy HH:mm")</div>
+        <div class="col-md-4"><strong>Тип:</strong> @Model.Task.Type</div>
+        <div class="col-md-4"><strong>Підзадач:</strong> @Model.Task.CountOfSubTasks</div>
+    </div>
+
+    <hr class="border-secondary">
+
+ <div class="row mb-4 align-items-center">
+    <div class="col-md-2"><strong>Вираз:</strong></div>
+    <div class="col-md-4">
+        @if (!longExpr)
+        {
+            <span>@Model.Task.Expression</span>
+        }
+        else
+        {
+            <button class="btn btn-outline-warning btn-sm" data-bs-toggle="modal" data-bs-target="#@exprModalId">
+                 Переглянути вираз
+            </button>
+
+           <div class="modal fade" id="@exprModalId" tabindex="-1" aria-hidden="true">
+               <div class="modal-dialog modal-lg modal-dialog-centered">
+                   <div class="modal-content bg-dark text-white">
+                       <div class="modal-header">
+                           <h5 class="modal-title">Повний вираз</h5>
+                           <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                       </div>
+                       <div class="modal-body" style="white-space: pre-line;">
+                           @Model.Task.Expression
+                       </div>
+                   </div>
+               </div>
+           </div>
+
+        }
+    </div>
+
+    
+        @if (!string.IsNullOrWhiteSpace(Model.Task.Result))
+        {
+
+            <div class="col-md-2"><strong>Результат:</strong></div>
+    <div class="col-md-4">
+
+            @if (!longResult)
+            {
+                <span class="text-success">@Model.Task.Result</span>
+            }
+            else
+            {
+                <button class="btn btn-outline-info btn-sm" data-bs-toggle="modal" data-bs-target="#@resultModalId">
+                    Переглянути результат
+                </button>
+
+                     <div class="modal fade" id="@resultModalId" tabindex="-1" aria-hidden="true">
+                        <div class="modal-dialog modal-lg modal-dialog-centered">
+                            <div class="modal-content bg-dark text-white">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">Повний результат</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                </div>
+                                <div class="modal-body" style="white-space: pre-wrap; overflow-wrap: break-word;">
+                                    @Model.Task.Result?.Trim()
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+            }
+                </div>
+        }
+
+</div>
+
+
+    <!-- Таблиця підзадач -->
+    <div class="table-responsive">
+        <table class="table table-dark table-bordered table-hover text-center align-middle">
+    <thead class="table-light text-dark">
+        <tr>
+            <th>#</th>
+            <th>Виконавець</th>
+            <th>Вираз</th>
+            <th>Результат</th>
+        </tr>
+    </thead>
+    <tbody>
+        @for (int i = 0; i < Model.SubTask.Count; i++)
+        {
+            var sub = Model.SubTask[i];
+            string exprModalIdSubTask = $"modalExprSubTask_{Model.Task.TaskId}_{i}";
+            string resModalIdSubTask = $"modalResSubTask_{Model.Task.TaskId}_{i}";
+            bool longExprSubTask = sub.Expression?.Length > 36;
+            bool longResultSubTask = sub.Result?.Length > 36;
+        <tr>
+            <td>@(i + 1)</td>
+            <td>@sub.TargetClientId</td>
+
+            <!-- Вираз -->
+            <td>
+                @if (!longExprSubTask)
+                {
+                    <span>@sub.Expression</span>
+                }
+                else
+                {
+                    <button class="btn btn-sm btn-outline-warning" data-bs-toggle="modal" data-bs-target="#@exprModalIdSubTask">
+                        Переглянути
+                    </button>
+
+                    <div class="modal fade" id="@exprModalIdSubTask" tabindex="-1" aria-hidden="true">
+                        <div class="modal-dialog modal-lg modal-dialog-centered">
+                            <div class="modal-content bg-dark text-white">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">Повний вираз</h5>
+                                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                                </div>
+                                <div class="modal-body" style="white-space: pre-wrap; overflow-wrap: break-word;">
+                                    @sub.Expression
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </td>
+
+            <!-- Результат -->
+            <td>
+                @if (!longResultSubTask)
+                {
+                    <span>@sub.Result</span>
+                }
+                else
+                {
+                    <button class="btn btn-sm btn-outline-success" data-bs-toggle="modal" data-bs-target="#@resModalIdSubTask">
+                        Переглянути
+                    </button>
+
+                    <div class="modal fade" id="@resModalIdSubTask" tabindex="-1" aria-hidden="true">
+                        <div class="modal-dialog modal-lg modal-dialog-centered">
+                        <div class="modal-content bg-dark text-white">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Повний результат</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+                            <div class="modal-body" style="white-space: pre-wrap; overflow-wrap: break-word;">
+                                @sub.Result?.Trim()
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                }
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>
+
+    </div>
+</div>

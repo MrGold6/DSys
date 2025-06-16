@@ -1,0 +1,94 @@
+﻿@model cental_server.Models.NetworkViewModel
+
+<h3 class="text-white mt-4">Вузли системи</h3>
+<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+
+    @foreach (var status in Model.Statuses)
+    {
+        <div class="col">
+            <div class="card bg-dark text-white h-100 shadow border-light rounded-4">
+                <div class="card-body">
+
+                    <div class="d-flex justify-content-between align-items-center mb-2">
+                        <h5 class="card-title mb-0">Вузол: @status.ClientId</h5>
+                        @if (status.IsCenter)
+                        {
+                            <span class="badge bg-success">⭐️ Центр</span>
+                        }
+                    </div>
+
+                    <p>Посилання: @status.ClientUrl</p>
+
+
+                    <p class="mb-1">Навантаженість процесора:</p>
+                    <div class="progress position-relative mb-3" style="height: 20px;">
+                        <div class="progress-bar bg-info" style="width: @((int)status.CpuUsage)%;" role="progressbar"
+                             aria-valuenow="@((int)status.CpuUsage)" aria-valuemin="0" aria-valuemax="100">
+                        </div>
+                        <span class="position-absolute w-100 text-center text-dark" style="top: 0; font-size: 0.9rem;">
+                            @status.CpuUsage%
+                        </span>
+                    </div>
+
+
+                    <p class="mb-1">Пам'ять (ОЗУ):</p>
+                    <div class="progress position-relative mb-3" style="height: 20px;">
+                        <div class="progress-bar bg-warning" style="width: @(status.MemoryUsagePercent)%;" role="progressbar"
+                             aria-valuenow="@(status.MemoryUsagePercent)" aria-valuemin="0" aria-valuemax="100">
+                        </div>
+                        <span class="position-absolute w-100 text-center text-dark" style="top: 0; font-size: 0.9rem;">
+                            @status.MemoryUsage MB
+                        </span>
+                    </div>
+
+                    @if (!status.IsCenter)
+                    {
+                        <a href="javascript:void(0);" class="btn btn-warning w-100 mb-3"
+                           onclick="setAsCenter('@status.ClientUrl')">
+                            Зробити центром
+                        </a>
+                    }
+
+                    <a class="btn btn-danger w-100"  href="#" onclick="disconnectNode('@status.ClientUrl', '@status.ClientId')" class="btn btn-sm btn-danger">Від'єднати вузол</a>
+
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+<script>
+    function disconnectNode(url, clientId) {
+
+        const data = new URLSearchParams();
+        data.append("url", url);
+        data.append("clientId", clientId);
+
+        fetch('/Network/DisconnectNode', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/x-www-form-urlencoded'
+            },
+            body: data.toString()
+        }).then(() => location.reload());
+    }
+
+
+    function setAsCenter(clientUri) {
+        const data = new URLSearchParams();
+        data.append("newCenter", clientUri);
+
+        fetch('/Network/SetCenter', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/x-www-form-urlencoded'
+            },
+            body: data.toString()
+        }).then(() => location.reload());
+
+
+    }
+
+
+
+</script>
