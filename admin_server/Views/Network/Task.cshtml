@@ -1,0 +1,63 @@
+﻿@model cental_server.Models.NetworkViewModel
+
+<div class="container py-5 bg-dark text-white">
+    <h2 class="text-center mb-4">Задачі системи</h2>
+
+    <div class="text-white p-4 rounded-4 shadow mb-4">
+        <form asp-action="SendTask" method="post" class="row g-3 justify-content-center">
+            <div class="col-md-5">
+                <select name="type" class="form-select bg-dark text-white border-light">
+                    <option value="MultiplyBigNumbers">Множення</option>
+                    <option value="Factorial">Факторіал</option>
+                    <option value="StdDev">Середньоквадратичне відхилення</option>
+                    <option value="Min">Мінімальне значення у масиві</option>
+                    <option value="Max">Максимальне значення у масиві</option>
+                    <option value="Sum">Сума чисел в великому масиві</option>
+                    <option value="EvenFilter">Парність великих чисел у масиві</option>
+                    <option value="ScalarProduct">Скалярний добуток</option>
+                    <option value="DenseMatrixMultiply">Щільне множення матриць</option>
+                </select>
+            </div>
+            <div class="col-md-3">
+                <button type="submit" class="btn btn-warning">
+                    Запустити обрахунки
+                </button>
+            </div>
+        </form>
+    </div>
+
+    <div id="status-container">
+        @await Html.PartialAsync("TasksPartial", Model)
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    function isModalOpen() {
+        return document.querySelector('.modal.show') !== null;
+    }
+
+    function refreshStatus() {
+        if (!isModalOpen()) {
+            $.ajax({
+                url: '/Network/TasksPartial',
+                success: function (data) {
+                    $('#status-container').html(data);
+                }
+            });
+        }
+    }
+
+    setInterval(refreshStatus, 5000); // оновлення кожні 5 секунд
+</script>
+
+
+<script>
+    function sendTask() {
+        fetch('/Network/SendTask', {
+            method: 'GET'
+            
+        }).then(() => location.reload());
+    }
+
+</script>

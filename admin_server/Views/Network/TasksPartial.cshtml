@@ -1,0 +1,109 @@
+﻿@model cental_server.Models.NetworkViewModel
+
+
+<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+    @{
+        var index = 1;
+    }
+    @foreach (var task in Model.Tasks)
+    {
+        
+            bool isDone = task.Status == MyTaskStatus.Success;
+            string badgeClass = task.Status switch
+            {
+                MyTaskStatus.ToDo => "bg-primaty",
+                MyTaskStatus.InProgress => "bg-warning text-dark",
+                MyTaskStatus.Success => "bg-success",
+                _ => "bg-light text-dark"
+            };
+        
+                            
+            string exprModalId = "modalExpression_" + task.TaskId;
+            string resultModalId = "modalResult_" + task.TaskId;
+            bool longExpr = task.Expression?.Length > 34;
+            bool longResult = task.Result?.Length > 34;
+    
+
+        <div class="col">
+            <div class="card bg-dark text-white h-100 shadow border-light rounded-4">
+                <div class="card-body">
+                    <h5 class="card-title mb-3">
+                        Задача #@index
+                        <span class="badge @badgeClass ms-2">@task.Status</span>
+                    </h5>
+
+                    <p class="mb-2"><strong>Тип:</strong> @task.Type</p>
+                    <p class="mb-2"><strong>Дата і час: </strong>@task.Timestamp.ToString("dd.MM.yyyy HH:mm")</p>
+
+                    
+                    @if (!longExpr)
+                    {
+                        <p class="mb-1"><strong>Вираз:</strong> @task.Expression</p>
+                    }
+                    else
+                    {
+                        <p class="mb-1"><strong>Вираз:</strong> 
+                            <button class="btn btn-outline-warning btn-sm mb-2" data-bs-toggle="modal" data-bs-target="#@exprModalId">
+                                Переглянути вираз
+                            </button>
+                        </p>
+                        <div class="modal fade" id="@exprModalId" tabindex="-1" aria-hidden="true">
+                            <div class="modal-dialog modal-lg modal-dialog-centered">
+                                <div class="modal-content bg-dark text-white">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title">Повний вираз</h5>
+                                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                                    </div>
+                                    <div class="modal-body" style="white-space: pre-line;">
+                                        @task.Expression
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    }
+
+
+                    @if (!string.IsNullOrWhiteSpace(task.Result))
+                    {
+                       
+                        @if (!longResult)
+                        {
+                             <p class="mb-1"><strong>Результат:</strong> @task.Result</p>
+                        }
+                        else
+                        {
+                            <p class="mb-1"><strong>Результат:</strong>
+                                <button class="btn btn-outline-success btn-sm mb-2" data-bs-toggle="modal" data-bs-target="#@resultModalId">
+                                    Переглянути результат
+                                </button>
+                            </p>
+                            <div class="modal fade" id="@resultModalId" tabindex="-1" aria-hidden="true">
+                                <div class="modal-dialog modal-lg modal-dialog-centered">
+                                    <div class="modal-content bg-dark text-white">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title">Повний результат</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                        </div>
+                                        <div class="modal-body" style="white-space: pre-line;">
+                                            @task.Result
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    }
+
+                    @if (task.Status != MyTaskStatus.ToDo)
+                    {
+                        <p class="mb-2"><strong>Кількість підзадач:</strong> @task.CountOfSubTasks</p>
+                        <a class="btn btn-primary w-100"  asp-controller="Network" asp-action="TaskExpression" asp-route-taskId="@task.TaskId">
+                            Проміжні обчислення
+                        </a>
+                    }
+                </div>
+            </div>
+        </div>
+
+        index++;
+    }
+</div>
